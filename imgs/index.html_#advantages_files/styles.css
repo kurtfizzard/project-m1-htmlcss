@@ -174,7 +174,7 @@ h2 {
 
 .subfeatures button {
   background: #3a3632;
-  border-radius: 2px;
+  border-radius: 5px;
   color: white;
   height: 35px;
   margin: 10px;
@@ -182,7 +182,7 @@ h2 {
 }
 
 .subfeatures p {
-  color: #a6a5a6;
+  color: lightgrey;
   font-size: 100%;
   line-height: 20px;
 }
@@ -200,6 +200,14 @@ h3 {
 .features button:hover {
   cursor: pointer;
 }
+
+/* .containertwo {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100vw;
+} */
 
 .greycontainer {
   color: white;
@@ -345,6 +353,10 @@ form {
   justify-content: center;
 }
 
+label {
+  font-size: 110%;
+}
+
 .formtext {
   border: 2px solid #a6a5a6;
   border-radius: 5px;
@@ -421,7 +433,6 @@ input {
   .burger {
     align-content: center;
     display: flex;
-    height: 50px;
     justify-content: space-evenly;
     width: 40%;
   }
@@ -447,18 +458,7 @@ input {
   }
 
   .navul li {
-    flex-direction: column;
-    position: relative;
     margin-left: 20px;
-  }
-
-  .navul li:hover {
-    background-color: #3a3632;
-    /* border-bottom: 3px solid white; */
-  }
-
-  .navul li:hover .border {
-    width: 100%;
   }
 
   .navul li a {
@@ -468,18 +468,8 @@ input {
     position: relative;
   }
 
-  .navul .border {
-    background-color: white;
-    bottom: 0;
-    height: 3px;
-    left: 0;
-    position: absolute;
-    transition: width 0.25s ease-in-out;
-    width: 0;
-  }
-
   .spaceship {
-    height: 800px;
+    height: 100vh;
   }
   .container {
     border: 8px solid white;
@@ -497,7 +487,7 @@ input {
   }
   .subcontainer h2 {
     font-size: 45px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-top: 30px;
   }
   .subsubcontainer {
@@ -525,34 +515,18 @@ input {
   }
 
   .greycontainer h1 {
-    font-size: 80px;
+    font-size: 100px;
     padding-left: 5%;
-    padding-top: 10%;
   }
   .greycontainer p {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 25px;
     padding-left: 5%;
-    padding-top: 5%;
-    width: 100%;
   }
 
   .subgreycontainer {
-    border: 10px solid white;
-    padding: 20px;
-    top: 85%;
+    top: 90%;
     left: 5%;
     width: 25%;
-  }
-
-  h4 {
-    font-size: 25px;
-  }
-
-  .subgreycontainer p {
-    font-size: 15px;
-    line-height: 25px;
-    margin-top: 10px;
   }
 
   .bluecontainer {
@@ -560,16 +534,13 @@ input {
   }
 
   .bluecontainer h1 {
-    font-size: 80px;
+    font-size: 100px;
     padding-right: 5%;
-    padding-top: 10%;
   }
 
   .bluecontainer p {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 25px;
     padding-right: 5%;
-    padding-top: 5%;
   }
 
   .catscontainer {
@@ -594,13 +565,8 @@ input {
     justify-content: space-evenly;
   }
 
-  .listsection ul {
-    padding-bottom: 20px;
-  }
-
   .listsection ul li {
-    font-size: 110%;
-    padding-top: 10px;
+    padding: 5px;
   }
 
   /* .featurescontainer {
